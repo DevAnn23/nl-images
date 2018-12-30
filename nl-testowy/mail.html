@@ -15,11 +15,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="http://fonts.googleapis.com/css?family=Dynalight&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <title>Rok 2019 wita!</title>
     
 <style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 		p{
 			margin:1em 0;
 			padding:0;
@@ -124,50 +123,22 @@
 	@section Heading 1
 	*/
 		h1{
-			/*@editable*/color:#222222;
-			/*@editable*/font-family:Dynalight;
+			/*@editable*/font-family: 'Dynalight', 'Georgia', 'times new roman', serif !important;
 			/*@editable*/font-size:40px;
 			/*@editable*/font-style:normal;
 			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:150%;
 			/*@editable*/letter-spacing:normal;
 			/*@editable*/text-align:left;
 		}
-	/*
-	@tab Page
-	@section Heading 2
-	*/
-		h2{
-			/*@editable*/color:#222222;
-			/*@editable*/font-family:Ubuntu;
-			/*@editable*/font-size:28px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:150%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
-		}
-	/*
-	@tab Page
-	@section Heading 3
-	*/
-		h3{
-			/*@editable*/color:#444444;
-			/*@editable*/font-family:Ubuntu;
-			/*@editable*/font-size:22px;
-			/*@editable*/font-style:normal;
-			/*@editable*/font-weight:bold;
-			/*@editable*/line-height:150%;
-			/*@editable*/letter-spacing:normal;
-			/*@editable*/text-align:left;
-		}
+
+		
 	/*
 	@tab Page
 	@section Heading 4
 	*/
 		h4{
 			/*@editable*/color:#999999;
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:20px;
 			/*@editable*/font-style:italic;
 			/*@editable*/font-weight:normal;
@@ -196,7 +167,7 @@
 	*/
 		#templatePreheader,#templatePreheader p{
 			/*@editable*/color:#326a12;
-			/*@editable*/font-family:Ubuntu;
+			font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:12px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
@@ -231,7 +202,7 @@
 	*/
 		#templateHeader,#templateHeader p{
 			/*@editable*/color:#606060;
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:16px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:left;
@@ -256,7 +227,7 @@
 	@section Body Text
 	*/
 		#templateBody,#templateBody p{
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:18px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
@@ -300,7 +271,7 @@
 	*/
 		#contactBar,#contactBar p{
 			/*@editable*/color:#FFFFFF;
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:10px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
@@ -320,7 +291,7 @@
 	*/
 		#footerContent,#footerContent p{
 			/*@editable*/color:#656565;
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:12px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
@@ -350,7 +321,7 @@
 	*/
 		#utilityBar,#utilityBar p{
 			/*@editable*/color:#656565;
-			/*@editable*/font-family:Ubuntu;
+			/*@editable*/ font-family: 'Ubuntu', Arial, sans-serif;
 			/*@editable*/font-size:12px;
 			/*@editable*/line-height:150%;
 			/*@editable*/text-align:center;
@@ -403,7 +374,6 @@
 	@section Heading 1
 	*/
 		h1{
-			/*@editable*/font-size:22px !important;
 			/*@editable*/line-height:175% !important;
 		}
 
@@ -433,7 +403,6 @@
 	@section Heading 4
 	*/
 		h4{
-			/*@editable*/font-size:16px !important;
 			/*@editable*/line-height:175% !important;
 		}
 
@@ -462,7 +431,7 @@
 	@section Header Text
 	*/
 		#templateHeader,#templateHeader p{
-			/*@editable*/font-size:16px !important;
+			/*@editable*/font-size:18px !important;
 			/*@editable*/line-height:150% !important;
 		}
 
@@ -472,7 +441,7 @@
 	@section Body Text
 	*/
 		#templateBody,#templateBody p{
-			/*@editable*/font-size:16px !important;
+			/*@editable*/font-size:18px !important;
 			/*@editable*/line-height:150% !important;
 		}
 
@@ -502,10 +471,10 @@
 	@tab Mobile Styles
 	@section Social Bar Text
 	*/
-	.mobile-block{
-			display: block;
-			width: 100%;
-			margin: 0 auto;
+	.mobile-block {
+			display: block !important;
+			width: 80%;
+			margin: 0 auto !important;			
 			text-align: center;
 			padding-left: 0 !important;
 			padding-right: 0 !important;
@@ -523,99 +492,196 @@
 			/*@editable*/line-height:150% !important;
 		}
 
-}</style></head>
+}
 
-<body style="margin: 0;padding: 0;size-adjust: 100%;-ms-text-size-adjust: 100%;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;padding-top: 0;padding-bottom: 0;padding-right: 0;padding-left: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility;width: 100%;height: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;">
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Dynalight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dynalight'), local('Dynalight-Regular'), url(https://fonts.gstatic.com/s/dynalight/v7/1Ptsg8LOU_aOmQvTsF44Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Dynalight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dynalight'), local('Dynalight-Regular'), url(https://fonts.gstatic.com/s/dynalight/v7/1Ptsg8LOU_aOmQvTsF44TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<!--[if mso]>
+<style type=”text/css”>
+h1 {
+font-family: 'georgia', 'times new roman',serif;
+}
+</style>
+<![endif]-->
+</head>
+
+<body style="margin: 0;padding: 0;size-adjust: 100%;-ms-text-size-adjust: 100%;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;padding-top: 0;padding-bottom: 0;padding-right: 0;padding-left: 0;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility;width: 100%;height: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
     <center>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="600" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 600px; max-width: 100%; background-color: #ffffff;">
-            <tr>
-                <td bgcolor="#2c0a29" align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;">
-                    <!-- BEGIN TEMPLATE // -->
-                    <!--[if gte mso 9]>
-                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
-                    <tr>
-                    <td align="center" valign="top" width="600" style="width:600px;">
-                    <![endif]-->
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
-                   
-                        <tr>
-                            <td valign="top" id="templateHeader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-right: 0px;padding-left: 0px;background-color: #2c0a29;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0px;padding-bottom: 0;color: #606060;font-family: Ubuntu;font-size: 16px;line-height: 150%;text-align: left;">
-                                <!-- BEGIN MODULE: HEADER IMAGE // -->
-                                <img src="images/top.png" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="600" height="79" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
-                                <!-- // END MODULE: HEADER IMAGE -->
-
-                            </td>
-                        </tr>
-                        <!-- // END HEADER -->
-                        <!-- BEGIN BODY // -->
-                        <tr>
-                            <td align="center" valign="top"  style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-right: 0px;padding-left: 0px;background-color: #2c0a29;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;padding-top: 0;padding-top: 0px;font-family: Ubuntu;font-size: 18px;line-height: 150%;text-align: center;">
-
-                                <!-- BEGIN MODULE: BODY CONTENT // -->
-									<h1 style="text-align: center;color: #d9c16a;display: block;margin: 0;padding: 0;font-family: Dynalight;font-size: 50px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;">Happy New Year!!!</h1>
-                            </td>
-						</tr>
-						<tr>
-							<td class="void" height="30" style="border-collapse: collapse;padding: 0;margin: 0;font-size: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">&nbsp;</td>
-						  </tr>
-						<tr>
-                            <td align="center" id="templateBody" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; background-color: #2c0a29;">
-								<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="600" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 600px; max-width: 600px; background-color: #ffffff;">
+		   <tr>
+			   <td bgcolor="#ffffff" align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;">
+				   <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 100% !important;">
+					<tr>
+						<td bgcolor="#2c0a29" align="center" valign="top" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 600;">
+							<!-- BEGIN TEMPLATE // -->
+							<!--[if gte mso 9]>
+							<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+							<tr>
+							<td align="center" valign="top" width="600" style="width:600px;">
+							<![endif]-->
+							<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;">
+						   
+								<tr>
+									<td valign="top" id="templateHeader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-right: 0px;padding-left: 0px;background-color: #2c0a29;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0px;padding-bottom: 0;color: #606060;font-family: Ubuntu, Arial, sans-serif ;font-size: 16px;line-height: 150%;text-align: left;">
+										<!-- BEGIN MODULE: HEADER IMAGE // -->
+										<img src="https://github.com/DevAnn23/nl-images/blob/master/nl-testowy/images/top.png?raw=true" style="max-width: 600px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="600" height="79" class="templateImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+										<!-- // END MODULE: HEADER IMAGE -->
+		
+									</td>
+								</tr>
+								  <!-- padding -->
+								  <tr>
+									<td class="void" height="32" style="border-collapse:collapse;margin:0;padding:0;font-size:12px;color:#666666;"> </td>
+								  </tr>
+								<!-- // END HEADER -->
+								<!-- BEGIN BODY // -->
+								<tr>
+									<td align="center" valign="top"  style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding-right: 0px;padding-left: 0px;background-color: #2c0a29;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;padding-top: 0;padding-top: 0px;font-family: Ubuntu, Arial, sans-serif ;font-size: 18px;line-height: 150%;text-align: center;">
+		
+										<!-- BEGIN MODULE: BODY CONTENT // -->
+										 <h1 style="text-align: center;color: #d9c16a;display: block;margin: 0;padding: 0;font-family:georgia,times,times new roman,serif;font-size: 50px;font-style: italic;font-weight: bold; letter-spacing: 0.90px;">Happy New Year!!!</h1>
+										
+									</td>
+								</tr>
+								<tr>
+									<td class="void" height="30" style="border-collapse: collapse;padding: 0;margin: 0;font-size: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">&nbsp;</td>
+								  </tr>
+									<!-- padding -->
 									<tr>
-										<td valign="top" class="void mobile-block" width="50%" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #326a12;font-weight: bold;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-											<p style="margin: 1em 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-											Ho! <br>Ho! Ho! <br> Święta, Święta <br> i po świętach,  ale przed nami <br> jescze ta jedyna, wyjątkowa <br>  i ostatnia noc w tym roku.											
-											</p>
-											<br>
-											<br>
-										</td>
-										<td valign="bottom" class="void mobile-block" width="50%" style="padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 0;padding-left: 0;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;vertical-align: bottom;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-											<img src="images/clock.png" alt="Witaj 2019!" width="200" height="200" style="border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
-										</td>
-									</tr>
-								</table>
-                            </td>
-						</tr>
-			
-						<tr>
-                            <td align="center" id="templateBody" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #ffffff;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-								<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-									<tr>
-										<td valign="top" class="void mobile-block" width="100%" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #999999;font-weight: bold;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-											<p style="margin: 1em 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-											Niech zatem ta noc taka będzie! <br> Niech nas wystrzałowo wprowadzi w nowy rok pełen sukcesów, zarówno tych osobistych jak biznesowych. Niech blaskiem fajerwerek wyznaczy nam nowe cele, marzenia i perspektywy. <br>
-											</p>
-											<br /><br />
-											<h4 style="text-align: center;display: block;margin: 0;padding: 0;color: #999999;font-family: Ubuntu;font-size: 20px;font-style: italic;font-weight: normal;line-height: 150%;letter-spacing: normal;">
-												Wszystkiego <span style="text-transform: uppercase; font-size: 25px; color: #d9c16a">NAJ</span> w nadchodzącym  <span style="text-transform: uppercase; font-size: 25px; color: #d9c16a">2019</span> roku!!! 
-											</h4>
-											
-										</td>
-									</tr>
-									<tr>
-										<td class="void" height="30" style="border-collapse: collapse;padding: 0;margin: 0;font-size: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">&nbsp;</td>
+										<td class="void" height="32" style="border-collapse:collapse;margin:0;padding:0;font-size:12px;color:#666666;"> </td>
 									  </tr>
-								</table>
-                            </td>
-						</tr>
-						<tr>
-                            <td valign="top" id="templateHeader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                <!-- BEGIN MODULE: HEADER IMAGE // -->
-                                <img src="images/bottom.png" style="max-width: 600px;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="600" height="76">
-                                <!-- // END MODULE: HEADER IMAGE -->
-
-                            </td>
-                        </tr>
-                        <!-- // END FOOTER -->
-                    </table>
-                    <!--[if gte mso 9]>
-                    </td>
-                    </tr>
-                    </table>
-                    <![endif]-->
-                    <!-- // END TEMPLATE -->
-                </td>
-            </tr>
+								<tr>
+									<td align="center" id="templateBody" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; background-color: #2c0a29;">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+											<tr>
+												<td valign="top" class="void mobile-block" width="50%" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #326a12;font-weight: bold;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+													<p style="margin: 1em 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; font-family: Ubuntu, Arial, sans-serif ;">
+													Ho! <br>Ho! Ho! <br> Święta, Święta <br> i po świętach,  ale przed nami <br> jeszcze ta jedyna, wyjątkowa <br>  i ostatnia noc w tym roku.											
+													</p>
+													<br>
+													<br>
+												</td>
+												<td valign="bottom" class="void mobile-block" width="50%" style="padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 0;padding-left: 0;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;vertical-align: bottom;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+													<div class="void mobile-block">
+														<img src="https://raw.githubusercontent.com/DevAnn23/nl-images/master/nl-testowy/images/clock.png" alt="Witaj 2019!" width="200" height="200" style="border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;">
+													</div>													
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								  <!-- padding -->
+								  <tr>
+									<td class="void" height="52" style="border-collapse:collapse;margin:0;padding:0;font-size:12px;color:#666666;"> </td>
+								  </tr>
+								<tr>
+									<td align="center" id="templateBody" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #ffffff;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+										<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+											<tr>
+												<td valign="top" class="void mobile-block" width="100%" style="text-align: center;padding: 0;margin: 0 auto;border-collapse: collapse;padding-top: 0;padding-bottom: 0;padding-right: 10px;padding-left: 10px;margin-top: 0;margin-bottom: 0;margin-right: 0;margin-left: 0;font-size: 0;color: #999999;font-weight: bold;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+													<p style="margin: 1em 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; font-size: 18px;">
+													Niech zatem ta noc taka będzie! <br> Niech nas wystrzałowo wprowadzi w nowy rok pełen sukcesów, zarówno tych osobistych jak i biznesowych. Niech blaskiem fajerwerków wyznaczy nam nowe cele, marzenia i perspektywy. <br>
+													</p>
+													<br /><br />
+													<h4 style="text-align: center;display: block;margin: 0;padding: 0;color: #999999;font-family: Ubuntu, Arial, sans-serif;font-size: 20px;font-style: italic;font-weight: normal;line-height: 150%;letter-spacing: normal;">
+														Wszystkiego <span style="text-transform: uppercase; font-size: 25px; color: #d9c16a">NAJ</span> w nadchodzącym  <span style="text-transform: uppercase; font-size: 25px; color: #d9c16a">2019</span> roku!!! 
+													</h4>
+													
+												</td>
+											</tr>
+											<tr>
+												<td class="void" height="30" style="border-collapse: collapse;padding: 0;margin: 0;font-size: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">&nbsp;</td>
+											  </tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td valign="top" id="templateHeader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+										<!-- BEGIN MODULE: HEADER IMAGE // -->
+										<img src="https://github.com/DevAnn23/nl-images/blob/master/nl-testowy/images/bottom.png?raw=true" style="max-width: 600px;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="600" height="76">
+										<!-- // END MODULE: HEADER IMAGE -->
+		
+									</td>
+								</tr>
+								<!-- // END FOOTER -->
+							</table>
+							<!--[if gte mso 9]>
+							</td>
+							</tr>
+							</table>
+							<![endif]-->
+							<!-- // END TEMPLATE -->
+						</td>
+					</tr>
+				   </table>
+			   </td>
+		   </tr>
+			
+			
+		
         </table>
     </center>
 </body>
